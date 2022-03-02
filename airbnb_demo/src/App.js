@@ -6,11 +6,18 @@ import Card from './components/Card';
 
 
 function App() {
+  
   return (
     <div>
       <Navbar />
       <Hero />
-      <Card/>
+      <Card
+      image="images/fez.jpg"
+      rating="5.0"
+      reviews=" (6)"
+      country="USA"
+      p="lessons into selling drugs"
+      price="420.69"/>
     </div>
   );
 }
