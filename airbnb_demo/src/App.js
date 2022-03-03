@@ -3,21 +3,29 @@ import './style.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Card from './components/Card';
-
+import Data from './components/Data';
 
 function App() {
+
+  const cards= Data.map(item=>{
+    return(
+      <Card
+      image={item.profileImg}
+      rating={item.stats.rating}
+      reviews={item.stats.reviews}
+      country={item.location}
+      p={item.title}
+      price={item.price}
+      
+      />
+    )
+  })
   
   return (
     <div>
       <Navbar />
       <Hero />
-      <Card
-      image="images/fez.jpg"
-      rating="5.0"
-      reviews=" (6)"
-      country="USA"
-      p="lessons into selling drugs"
-      price="420.69"/>
+    {cards}
     </div>
   );
 }

@@ -28,6 +28,10 @@ padding: 20px;
   display: flex;
   flex-direction: column;
 }
+.hero-hero{
+  display: flex;
+  padding: 0px 300px 50px 200px;
+}
 .hero-photo{
   max-width: 400px;
   align-self: center;
