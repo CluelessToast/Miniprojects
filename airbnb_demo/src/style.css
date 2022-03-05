@@ -10,9 +10,9 @@ body{
 nav{
   height: 70px;
   display: flex;
-  background-color: black;
+  background-color: white;
   padding: 15px 30px;
-  /* box-shadow: 0px 2.98x 7.45px rgba(0,0,0,0.1); */
+  box-shadow: 0px 2.98256px 7.45px rgba(0,0,0,0.1);
 }
 .nav-logo{
   max-width: 120px;
@@ -49,6 +49,9 @@ padding: 20px;
 .card{
   width: 175px;
   font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 .card-image{
   width: 100%;
@@ -62,4 +65,26 @@ padding: 20px;
 }
 .card-star{
   height: 14px;
+}
+.card-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-list{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+table, table img{
+
+  border-radius: 15px;
+  height:250px;
+
+}
+.tb, td{
+  border:1px solid black
+}
+.tb-row{
+  padding-top: 40px;
 }

@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Card from './components/Card';
 import Data from './components/Data';
+import TableImg from './components/TableImg';
+
 
 function App() {
 
@@ -24,8 +26,11 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
-    {cards}
+      <TableImg />
+      {/* <Hero /> */}
+      <section className='card-list'>
+      {cards}
+      </section>
     </div>
   );
 }
