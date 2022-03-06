@@ -1,6 +1,6 @@
 export default[ {
     id:1,
-    title:"Learn how to deal, produce drugs.",
+    title:"Learn how to deal and produce drugs.",
     descriptions:" I will teach you the rights and wrongs in the drug dealer business.",
     price: "420.69",
     profileImg: "images/fez.jpg",
@@ -9,7 +9,7 @@ export default[ {
         reviews: "(36)"
     },
     location: "* Washing DC",
-    openSpots: "54"
+    openSpots: 54
 },
 {
     id:2,
@@ -22,7 +22,7 @@ export default[ {
         reviews:"(54)"
     },
     location: "* On the streets",
-    openSpots: "10"
+    openSpots: 0
 },
 {
     id:3,
@@ -35,11 +35,11 @@ export default[ {
         reviews:"(34)"
     },
     location: "* Online",
-    openSpots: "0"
+    openSpots: 0
 },
 {
     id:4,
-    title:"",
+    title:"Learn how to avoid responsabilities at all cost",
     descriptions:"Treats and tricks on how to avoid getting caught",
     price:"400",
     profileImg:"images/rue.jpg",
@@ -48,7 +48,7 @@ export default[ {
         reviews:"(64)"
     },
     location: "* USA",
-    openSpots: "5"
+    openSpots: 0
 },
 
 ]

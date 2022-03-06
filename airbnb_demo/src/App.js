@@ -12,13 +12,14 @@ function App() {
   const cards= Data.map(item=>{
     return(
       <Card
+      key={item.id}
       image={item.profileImg}
       rating={item.stats.rating}
       reviews={item.stats.reviews}
       country={item.location}
       p={item.title}
       price={item.price}
-      
+      openSpots={item.openSpots}
       />
     )
   })
