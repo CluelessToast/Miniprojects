@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Card from './components/Card';
 import Data from './components/Data';
-import TableImg from './components/TableImg';
+import FrontLayout from './components/FrontLayout';
 
 
 function App() {
@@ -16,8 +16,8 @@ function App() {
       image={item.profileImg}
       rating={item.stats.rating}
       reviews={item.stats.reviews}
-      country={item.location}
-      p={item.title}
+      location={item.location}
+      title={item.title}
       price={item.price}
       openSpots={item.openSpots}
       />
@@ -27,8 +27,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <TableImg />
-      {/* <Hero /> */}
+      <FrontLayout />
+      <Hero />
       <section className='card-list'>
       {cards}
       </section>
