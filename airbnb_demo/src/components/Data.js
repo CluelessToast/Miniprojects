@@ -21,8 +21,8 @@ export default[ {
         rating:3.3,
         reviews:"(54)"
     },
-    location: "* On the streets",
-    openSpots: 0
+    location: "Online",
+    openSpots: 1
 },
 {
     id:3,
@@ -34,8 +34,8 @@ export default[ {
         rating:5.0,
         reviews:"(34)"
     },
-    location: "* Online",
-    openSpots: 0
+    location: "Online",
+    openSpots: 1
 },
 {
     id:4,
